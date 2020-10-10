@@ -7,6 +7,6 @@ app.get("/", (req, res, next) => {
   });
 });
 
-app.listen("http://localhost:3000", () => {
+app.listen(3000, () => {
   console.log("started server");
 });
