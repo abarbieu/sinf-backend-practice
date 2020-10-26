@@ -18,5 +18,6 @@ const binsearch = (num, arr) => {
     return binsearch(num, arr.slice(mid, arr.length));
   }
 };
+//hello
 
 console.log(binsearch(21, arr));
